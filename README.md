@@ -13,4 +13,4 @@ This is the second project of the Software Engineer program at Practicum by Yand
 
 ## Plan on improving the project
 
-Add your ideas here :)
+Add your ideas here :) it was a new challange learing to use "span" and "form" and as well as structuring blocks.

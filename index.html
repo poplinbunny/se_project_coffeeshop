@@ -145,7 +145,6 @@
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc"
                 title="YouTube video player"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
               ></iframe>
@@ -159,7 +158,6 @@
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/st571DYYTR8"
                 title="YouTube video player"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
               ></iframe>
@@ -174,7 +172,7 @@
           <h2 class="reservation__title">Book a table</h2>
           <form class="reservation__form">
             <fieldset class="form__fieldset">
-              <label for="name" class="form__label">Name *</label>
+              <label id="name" class="form__label">Name *</label>
               <input
                 type="text"
                 class="form__input"
@@ -183,7 +181,7 @@
                 placeholder="Name Surname"
                 required
               />
-              <label for="number" class="form__label">Number of guests *</label>
+              <label id="number" class="form__label">Number of guests *</label>
               <input
                 type="number"
                 class="form__input"
@@ -192,7 +190,7 @@
                 placeholder="1-8"
                 required
               />
-              <label for="datetime-local" class="form__label"
+              <label id="datetime-local" class="form__label"
                 >Date & time *</label
               >
               <input
@@ -203,7 +201,7 @@
                 placeholder="mm/dd/yyyy --:-- --"
                 required
               />
-              <label for="email" class="form__label">your email *</label>
+              <label id="email" class="form__label">your email *</label>
               <input
                 type="email"
                 class="form__input"
@@ -213,7 +211,7 @@
                 required
               />
               <button type="submit" class="form__button">Book a table</button>
-              <label for="agree" class="form__label"
+              <label id="agree" class="form__label"
                 ><input
                   type="checkbox"
                   class="form__input form__input_checkbox"
