@@ -172,7 +172,7 @@
           <h2 class="reservation__title">Book a table</h2>
           <form class="reservation__form">
             <fieldset class="form__fieldset">
-              <label id="name" class="form__label">Name *</label>
+              <label class="form__label" for="name">Name*</label>
               <input
                 type="text"
                 class="form__input"
@@ -181,7 +181,7 @@
                 placeholder="Name Surname"
                 required
               />
-              <label id="number" class="form__label">Number of guests *</label>
+              <label class="form__label" for="number">Number of guests *</label>
               <input
                 type="number"
                 class="form__input"
@@ -190,18 +190,15 @@
                 placeholder="1-8"
                 required
               />
-              <label id="datetime-local" class="form__label"
-                >Date & time *</label
-              >
+              <label class="form__label" for="datetime">Date & time *</label>
               <input
                 type="datetime-local"
                 class="form__input"
                 id="datetime"
                 name="DateTime-local"
-                placeholder="mm/dd/yyyy --:-- --"
                 required
               />
-              <label id="email" class="form__label">your email *</label>
+              <label class="form__label" for="email">your email *</label>
               <input
                 type="email"
                 class="form__input"
