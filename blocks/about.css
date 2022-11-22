@@ -1,6 +1,7 @@
 .about {
   padding-top: 100px;
   padding-left: 80px;
+  padding-bottom: 173px;
   background-color: #0a2750;
   color: #fff;
   overflow: hidden;
@@ -24,7 +25,7 @@
 }
 
 .about__content {
-  font-family: "Noto Serif", "Times New Roman";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
