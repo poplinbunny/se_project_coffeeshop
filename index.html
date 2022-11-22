@@ -184,6 +184,8 @@
               <label class="form__label" for="number">Number of guests *</label>
               <input
                 type="number"
+                min="1"
+                max="8"
                 class="form__input"
                 id="number"
                 name="number"
@@ -241,31 +243,29 @@
         </section>
       </main>
       <footer class="footer" id="footer">
-        <div class="footer__columns">
-          <div class="footer__column">
-            <img
-              class="footer__logo"
-              src="../images/practicum_logo.svg"
-              alt="Practicum Logo"
-            />
-          </div>
-          <div class="footer__column footer__column_content_social">
-            <h2 class="footer__column-heading">Social media</h2>
+        <div class="footer__content">
+          <img
+            class="footer__logo"
+            src="./images/practicum_logo.svg"
+            alt="Practicum Logo"
+          />
+          <div class="footer__social">
+            <h2 class="footer__social-heading">Social media</h2>
             <ul class="footer__list">
               <li class="footer__list-item">
-                <a href="#" class="footer__column-link">
+                <a href="#" class="footer__social-link">
                   <img
                     class="footer__social-icon"
-                    src="../images/facebook_white.svg"
+                    src="./images/facebook_white.svg"
                     alt="Facebook Logo"
                   />Facebook
                 </a>
               </li>
               <li class="footer__list-item">
-                <a href="#" class="footer__column-link">
+                <a href="#" class="footer__social-link">
                   <img
                     class="footer__social-icon"
-                    src="../images/instagram_white.svg"
+                    src="./images/instagram_white.svg"
                     alt="Instagram Logo"
                   />Instagram
                 </a>

@@ -13,25 +13,27 @@
 }
 
 .menu__title {
-  font-family: "Inter";
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
   text-align: center;
   max-width: 780px;
+  margin-top: 0;
   margin-bottom: 24px;
   color: #ffffff;
 }
 
 .menu__subtitle {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   text-align: center;
   max-width: 780px;
+  margin-top: 0;
   margin-bottom: 100px;
   color: #ffffff;
 }
@@ -45,47 +47,4 @@
   justify-content: center;
   gap: 100px;
   list-style: none;
-}
-
-.card {
-  box-sizing: border-box;
-  max-width: 600px;
-  display: flex;
-  flex-basis: 500px;
-  flex-direction: column;
-}
-
-.card__title {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
-  margin-top: 0;
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-.card__list {
-  list-style: none;
-  padding-left: 0;
-  margin-bottom: 0;
-}
-
-.card__list-item {
-  font-family: "Noto Serif";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
-  margin-bottom: 16px;
-  column-gap: 16px;
-  display: flex;
-  align-items: baseline;
-  color: #ffffff;
-}
-
-.card__list-divider {
-  border-bottom: 2px solid #fff;
-  min-width: 50px;
-  flex-grow: 1;
 }
